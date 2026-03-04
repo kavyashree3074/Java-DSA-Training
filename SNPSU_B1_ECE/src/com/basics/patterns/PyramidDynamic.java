@@ -14,7 +14,6 @@ public class PyramidDynamic {
         }
     }
 
-    public static void main(String[] args) {
-        pyramidDynamic(5);
+    public static void main(String[] args) {pyramidDynamic(5);
     }
 }
