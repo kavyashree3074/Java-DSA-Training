@@ -1,0 +1,22 @@
+package com.basics.oops.pillars.inheritence.single;
+
+public class Person {
+    String name;
+    Person(String name){  //Constructor
+        this.name = name;
+    }
+}
+class Student extends Person{
+    int rollNo;
+    Student(int rollNo, String name){
+        super(name);
+        this.rollNo=rollNo;
+    }
+    void display(){
+        System.out.println(rollNo + " " + name );
+    }
+    public static void main(String[] args) {
+        Student student = new Student(51,"Kavya");
+        student.display();
+    }
+}
